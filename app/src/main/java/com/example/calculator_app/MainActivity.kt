@@ -27,7 +27,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Calculator_appTheme {
-
                 val viewModel = viewModel<CalculatorViewModel>()
                 val state = viewModel.state
                 val buttonSpacing = 8.dp
